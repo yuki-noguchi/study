@@ -3,12 +3,11 @@ package study.basic.classstudy.car;
 public class Main {
 
 	public static void main(String[] args) {
+		// 車を作る(newする）
 		Car car = new Car("ブルー", "セダン");
 
 		System.out.println(car.getColor());
 		System.out.println(car.getType());
-
-		String mieru = car.mieru;
 
 		if (car.isEngineStarting()) {
 			System.out.println("エンジンは起動しています。");

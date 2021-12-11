@@ -7,6 +7,8 @@ import java.util.Map;
 public class Main6 {
 
 	public static void main(String[] args) {
+		// マップ
+		// キー・バリューで1セットとなるもの
 		Map<String, String> animalMap = new HashMap<>();
 		animalMap.put("cat", "四足歩行の哺乳類。鳴き声はにゃ～んと言う。かわいい。");
 		animalMap.put("dog", "四足歩行の哺乳類。鳴き声はわんわんと言う。かわいい。");
